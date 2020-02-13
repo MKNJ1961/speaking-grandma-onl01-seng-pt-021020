@@ -9,7 +9,7 @@ def speak_to_grandma(phrase)
   elsif phrase = "Hi"
     return "HUH?! SPEAK UP, SONNY!"
     
-  elsif phrase == phrase.upcase
+  elsif phrase = phrase.upcase
     return "NO, NOT SINCE 1938!"
   else phrase = "WHAT?"
     return "NO, NOT SINCE 1938!"
